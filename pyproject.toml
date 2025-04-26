@@ -4,7 +4,7 @@ requires = ["poetry-core>=1.2.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "lava-dl"
+name = "lava_dl"
 packages = [
     {include = "lava", from = "src"},
     {include = "tests"}
